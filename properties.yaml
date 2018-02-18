@@ -1,0 +1,9 @@
+APP:
+  NAME: classifier
+
+SERVICE:
+  URL: https://api.webshrinker.com/categories/v3
+  KEY: nlPwoDduWjfwwg5RxJ9w:oAjZkOdY4wFJscqWcx7G
+
+API:
+  PREFIX: /api/v1
