@@ -28,9 +28,9 @@ def __configure_app(app):
 def __configure_blueprints(app):
     """Configure blueprints in views."""
 
-    from api import classifier, user
+    from api import classifier
 
-    for bp in [classifier, user]:
+    for bp in [classifier]:
         app.register_blueprint(bp)
 
 
