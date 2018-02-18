@@ -21,9 +21,6 @@ def __configure_app(app):
     """Different ways of configurations."""
     app.config.from_object(__read_config())
 
-    # Use instance folder instead of env variables to make deployment easier.
-    # app.config.from_envvar('%s_APP_CONFIG' % DefaultConfig.PROJECT.upper(), silent=True)
-
 
 def __configure_blueprints(app):
     """Configure blueprints in views."""
