@@ -19,8 +19,8 @@ def create_app(app_name):
 
 def __configure_app(app):
     """Different ways of configurations."""
-    app.config.from_object(__read_config())
-
+    app.config.from_mapping(__read_config())
+    
 
 def __configure_blueprints(app):
     """Configure blueprints in views."""
